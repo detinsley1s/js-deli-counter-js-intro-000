@@ -6,7 +6,7 @@ function takeANumber(line, name) {
 function nowServing(line) {
   if (line.length > 0) {
     let person = line.shift();
-    katzDeliLine = line.slice(1);
+    line = line.slice(1);
     return person;
   }
   else {
